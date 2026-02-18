@@ -1,4 +1,4 @@
-package mod1;
+package homework;
 
 public class Human {
     public static String name;

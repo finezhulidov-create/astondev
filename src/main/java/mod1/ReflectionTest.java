@@ -1,5 +1,7 @@
 package mod1;
 
+import homework.Human;
+
 import java.lang.reflect.Field;
 
 public class ReflectionTest {

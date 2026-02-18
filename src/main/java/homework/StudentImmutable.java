@@ -1,4 +1,4 @@
-package mod1;
+package homework;
 
 public final class StudentImmutable {
     private  final String nameImut ;
@@ -11,7 +11,7 @@ public final class StudentImmutable {
         this.ageImut = ageImut;
     }
 
-    public  Human human ;
+    public Human human ;
 
     public static void main(String[] args) {
 
