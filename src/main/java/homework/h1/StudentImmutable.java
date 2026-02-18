@@ -1,33 +1,37 @@
 package homework.h1;
 
+import java.util.List;
+
 public final class StudentImmutable {
-    private  final String nameImut ;
-    private  final Integer ageImut ;
+    private  final String course;
+    private  final Integer estimation;
+    private  final Human human ;
 
 
-
-    public StudentImmutable(String nameImut, Integer ageImut) {
-        this.nameImut = nameImut;
-        this.ageImut = ageImut;
+    public StudentImmutable(String course, Integer estimation, Human human) {
+        this.course = course;
+        this.estimation = estimation;
+        this.human = human;
     }
 
-    public Human human ;
-
-    public static void main(String[] args) {
-
-        Human.age = 25; // можно переприсвоить значения не иммутабельному классу
-        StudentImmutable student = new StudentImmutable("Alex", Human.age);
-        System.out.println(student);
-        System.out.println(Human.age);
-        Human.age = 38;
-        System.out.println(Human.age);
-
+    public String getCourse() {
+        return course;
     }
+
+    public Integer getEstimation() {
+        return estimation;
+    }
+
+    public Human getHuman() {
+        return human != null ? human.copy() : null ;
+    }
+
     @Override
     public String toString() {
         return "StudentImmutable{" +
-                "ageImut=" + ageImut +
-                ", nameImut='" + nameImut + '\'' +
+                "course='" + course + '\'' +
+                ", estimation=" + estimation +
+                ", human=" + human +
                 '}';
     }
 }
