@@ -1,4 +1,4 @@
-package homework;
+package homework.h1;
 
 public final class StudentImmutable {
     private  final String nameImut ;

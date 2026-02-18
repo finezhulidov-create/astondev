@@ -1,4 +1,4 @@
-package homework;
+package homework.h1;
 
 public class Human {
     public static String name;

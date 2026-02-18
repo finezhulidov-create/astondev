@@ -1,6 +1,6 @@
 package mod1;
 
-import homework.Human;
+import homework.h1.Human;
 
 import java.lang.reflect.Field;
 
