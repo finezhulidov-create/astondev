@@ -1,0 +1,12 @@
+Alice Dowson
+The Lord of the Rings,1954,1216;Pride and Prejudice,1813,432;1984,1949,328;To Kill a Mockingbird,1960,376;The Great Gatsby,1925,180
+Bob Marley
+Clean Code,2008,464;Effective Java,2008,416;The Pragmatic Programmer,1999,352;Introduction to Algorithms,1990,1312;Design Patterns,1994,395
+Charlie Preston
+Thinking in Java,1998,1152;Java Concurrency in Practice,2006,384;Spring in Action,2018,624;Head First Design Patterns,2004,632;Refactoring,1999,464
+Diana Princess
+Code Complete,2004,960;The Clean Coder,2011,256;Test-Driven Development,2002,240;Agile Software Development,2002,560;Domain-Driven Design,2003,560
+Eve Lovia
+Patterns of Enterprise Application Architecture,2002,560;Java Generics,2006,200;Programming Pearls,1986,256;Cracking the Coding Interview,2015,687;The Art of Computer Programming,1968,600
+Маша Цыганова
+Code Complete,2004,96;The Clean Coder,2011,256;Test-Driven Development,2002,240;The Lord of the Rings,1954,1216;Pride and Prejudice,1813,432;1984,1949,328;To Kill a Mockingbird,1960,376;The Great Gatsby,1925,180
